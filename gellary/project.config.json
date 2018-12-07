@@ -1,0 +1,66 @@
+{
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"setting": {
+		"urlCheck": true,
+		"es6": false,
+		"postcss": true,
+		"minified": false,
+		"newFeature": true
+	},
+	"appid": "wx06153793fb38ac6b",
+	"projectname": "gellary",
+	"libVersion": "2.4.1",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 1,
+			"list": [
+				{
+					"id": -1,
+					"name": "db guide",
+					"pathName": "pages/databaseGuide/databaseGuide",
+					"query": ""
+				},
+				{
+					"id": 1,
+					"name": "river",
+					"pathName": "pages/photo-river/photo-river",
+					"query": ""
+				},
+				{
+					"id": 2,
+					"name": "solo",
+					"pathName": "pages/solo/solo",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "add",
+					"pathName": "pages/add/add",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "icon",
+					"pathName": "components/i-con/i-con",
+					"query": ""
+				}
+			]
+		}
+	}
+}

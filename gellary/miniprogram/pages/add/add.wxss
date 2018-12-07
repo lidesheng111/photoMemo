@@ -1,0 +1,32 @@
+
+.photo-add {
+  width: 100%;
+}
+
+.text-add-wrapper {
+  margin: 50rpx;
+}
+.title-add {
+  font-size: 36rpx;
+  font-family: FangSong;
+  font-weight: 100;
+  margin: 45rpx 0;
+}
+
+.where, .when, .withWho, .doWhat, .shortNote {
+  font-size: 28rpx;
+  margin-top: 20rpx;
+}
+
+.warn {
+  color: #f06292;
+  font-size: 28rpx;
+  height: 20rpx;
+}
+button {
+  width: 300rpx;
+  height: 100rpx;
+}
+button::after {
+  border: none;
+}

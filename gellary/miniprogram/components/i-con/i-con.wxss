@@ -1,0 +1,23 @@
+.icon {
+  box-shadow: 0rpx 2rpx 13rpx 5rpx rgba(0, 0, 0, 0.08);
+  padding: 10rpx 20rpx;
+  display: flex;
+  align-items: center;
+  border-radius: 15rpx;
+}
+.icon-img {
+  width: 80rpx;
+  height: 80rpx;
+}
+.small {
+  width: 30rpx;
+  height: 30rpx;
+}
+.large {
+  width: 100rpx;
+  height: 100rpx;
+}
+.icon-text {
+  font-family:Miriam Fixed, Batang;
+  margin-left: 10rpx;
+}

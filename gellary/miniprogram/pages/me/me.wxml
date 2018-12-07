@@ -1,0 +1,9 @@
+<view class='user-card'>
+    <view class='user-head'></view>
+    <view class='unlogin-text'>未登录</view>
+    <view class='unlogin-tips'>请登录</view>
+  </view>
+<navigator class='user-card' url='/pages/gellary/gellary'>
+    <image class='user-head user-login-head' src='{{userInfo.avatarUrl}}' />
+    <view class='user-name'>{{userInfo.nickName}}</view>
+  </navigator>

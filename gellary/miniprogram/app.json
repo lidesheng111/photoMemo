@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/solo/solo",
+    "pages/photo-river/photo-river",
+    "pages/specials/specials",
+    "pages/add/add",
+    "pages/me/me"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "照片记",
+    "navigationBarTextStyle": "black"
+  },
+  "usingComponents": {
+    "i-con": "../../components/i-con/i-con"
+  }
+}

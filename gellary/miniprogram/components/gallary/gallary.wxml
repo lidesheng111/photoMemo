@@ -1,0 +1,10 @@
+<view class='{{rectType}} gellary-wrapper'>
+  <image class="{{rectType}}-img" src='{{url}}' bindload='getImgInfo' mode="{{mode}}" />
+  <view class='gellary-text'>
+    <view class='where'>{{where}}</view>
+    <text class='when'>{{when}}</text>
+    <view class='withWho'>{{withWho}}</view>
+    <view class='doWhat'>{{doWhat}}</view>
+    <view class='shortNote'>{{shortNote}}</view>
+  </view>
+</view>

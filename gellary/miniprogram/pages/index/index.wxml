@@ -1,0 +1,16 @@
+<view wx:if="{{!logged}}" class='unlogged'>
+  <button class="login-btn" open-type='getUserInfo' bindgetuserinfo='onTapLogin'>翻開</button>
+</view>
+
+<view wx:else class='logged'>
+  <view class='guide-wrapper'>
+    <i-con id="guidepost" url="/images/plus-white.svg" icon-text="路標" size="small" bindtap='toggle'></i-con>
+  </view>
+
+  <view id="box" class="{{opened ? 'open' : 'close'}}">
+    <i-con bindtap='toPhotoRiver' url="/images/images-white.svg" icon-text="照片河"></i-con>
+    <i-con bindtap='toAdd' url="/images/cloud-upload-white.svg" icon-text="写入"></i-con>
+    <i-con bindtap='toSpecials' url="/images/heart-white.svg" icon-text="特殊记忆"></i-con>
+    <i-con bindtap='toMe' url="/images/user-lock-white.svg" icon-text="我"></i-con>
+  </view>
+</view>

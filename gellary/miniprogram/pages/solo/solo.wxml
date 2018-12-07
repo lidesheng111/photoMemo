@@ -1,0 +1,19 @@
+<view class='solo-wrapper'>
+  <image class="{{photoSolo.horizontal ? 'hori-img' : 'vert-img'}} img" src='{{photoSolo.url}}' mode="widthFix" />
+  <view class='solo-text'>
+    <view>{{photoSolo.where}}</view>
+    <view>{{photoSolo.when}}</view>
+    <view>{{photoSolo.withWho}}</view>
+    <view>{{photoSolo.doWhat}}</view>
+    <view>{{photoSolo.shortNote}}</view>
+  </view>
+  <i-con class="plus-icon" url="/images/plus.svg" size="small" bindtap="toggle"></i-con>
+
+  <view id="float-box" class="{{showing ? 'showing' : 'hidden'}}">
+    <i-con url="/images/heart-yellow.svg" icon-text="标为特殊记忆" size="small" bindtap="onMarkAsSpecial"/>
+    <i-con url="/images/share-yellow.svg" icon-text="分享到朋友圈" size="small" bindtap="onShare" />
+    <i-con url="/images/download-yellow.svg" icon-text="下载图片" size="small" bindtap="onDownLoad" />
+    <i-con url="/images/eraser-grey.svg" icon-text="抹去" size="small" data-id="{{photoSolo._id}}" bindtap="onDelete" />
+  </view>
+
+</view>

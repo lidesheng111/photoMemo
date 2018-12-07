@@ -1,0 +1,85 @@
+.unlogged {
+  background-color: #D0D0D0;
+  width: 750rpx;
+  height: 1206rpx;
+}
+
+/* 登陆button #f5e069 */
+.login-btn {
+    background: #D0D0D0;
+    height: 250rpx;
+    line-height: 80rpx;
+    border-radius: 10rpx;
+    font-size: 30rpx;
+    font-weight: bold;
+    color: #FFF;
+    font-family: Batang, FangSong;
+    writing-mode: vertical-rl;
+    position: absolute;
+    right: 200rpx;
+    top: 400rpx;
+    letter-spacing: 30rpx;
+    box-shadow: 5px 5rpx 13rpx rgba(0, 0, 0, 0.5)
+}
+
+.logged {
+  display: grid;
+  justify-content: center;
+  background-color: #000;
+  color: #fff;
+  height: 1205rpx;
+}
+
+.guide-wrapper {
+  width: 200rpx;
+  justify-self: center;
+  background-color: #000;
+  margin-top: 50rpx;
+}
+#guidepost {
+  color: white;
+  width: 30rpx !important;
+  height: 30rpx;
+}
+
+/* 动画 */
+#box{
+  width: 500rpx;
+  overflow: hidden;
+  height: 240rpx;
+  animation-fill-mode: forwards;
+  margin: 0 auto;
+  display: grid;
+  justify-content: center;
+}
+
+#box i-con{
+  margin-top: 22rpx;
+}
+
+@keyframes slidedown{
+    from {
+        height: 0;
+    }
+    to {
+        height: 500rpx;
+    }
+}
+
+@keyframes slideup{
+    from {
+        height: 500rpx;
+    }
+    to {
+        height: 0;
+    }
+}
+
+.open{
+    animation: slidedown 1s;
+}
+
+.close{
+    animation: slideup 1s; 
+}
+

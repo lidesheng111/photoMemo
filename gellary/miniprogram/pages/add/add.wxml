@@ -1,0 +1,16 @@
+<button wx:if="{{memoAdd.url.length == 0}}" bindtap="onUpload">上传图片</button>
+<view   wx:else>
+  <image class='photo-add' src='{{memoAdd.url}}' mode='widthFix' bindload="onGetInfo" />
+  <form class='text-add-wrapper' bindsubmit='formSubmit'>
+    <view class='title-add'>那天，我/我们......</view>
+    <view class='warn'>{{warn}}</view>
+    <input class='where add' type='text' placeholder='在哪里' bindblur='onWhere' confirm-type='done' name="where"></input>
+    <input class='when add'      type='text' placeholder='什么时候' bindblur='onWhen' confirm-type='done' name="when"></input>
+    <input class='withWho add'   type='text' placeholder='和谁'     bindblur='onWithWho' confirm-type='done' name="withWho"></input>
+    <input class='doWhat add'    type='text' placeholder='做什么'   bindblur='onDoWhat' confirm-type='done' name="doWhat"></input>
+    <textarea class='shortNote add' type='text' placeholder='短记'  bindblur='onNote' maxlength="200" confirm-type='done' name="note"></textarea>
+  
+    <button form-type="submit" bindtap="onSubmit">搞定</button>
+
+  </form>
+</view>

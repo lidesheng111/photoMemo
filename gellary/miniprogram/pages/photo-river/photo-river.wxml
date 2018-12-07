@@ -1,0 +1,10 @@
+<view wx:for="{{photoMemoList}}" wx:key="item._id" url='../solo/solo?id={{item._id}}'  class='gellary-container'>
+    <gallary url='{{item.url}}' rect-type="{{item.horizontal ? 'horizontal' : 'vertical'}}" mode="{{item.horizontal ? '' : 'aspectFill'}}"
+              where="{{item.where}}"
+              when="{{item.when}}"
+              with-who="{{item.withWho}}"
+              do-what="{{item.doWhat}}"
+              short-note="{{item.shortNote}}">
+    </gallary>
+</view>
+

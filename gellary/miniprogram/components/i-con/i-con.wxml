@@ -1,0 +1,4 @@
+<view class='icon'>
+    <image class="icon-img {{size}}" src='{{url}}'/>
+    <text class='icon-text'>{{iconText}}</text>
+</view>

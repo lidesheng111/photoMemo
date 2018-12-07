@@ -1,0 +1,56 @@
+page {
+  /* background-color: red; */
+}
+.gellary-wrapper {
+  width: 750rpx;
+  margin-bottom: 200rpx;
+}
+
+/*水平方向*/
+.horizontal {
+  display: grid;
+  
+}
+    .horizontal-img {
+      width: 750rpx;
+    }
+
+/*垂直方向*/
+.vertical {
+  display: grid;
+  grid-template-columns: 440rpx 310rpx;
+  /* padding: 100rpx 0; */
+}
+    .vertical-img {
+      width: 440rpx;
+      height: 563rpx;
+    }
+
+.gellary-text {
+  font-family: MS PMincho, Batang;
+  font-size: 28rpx;
+  font-weight: 100;
+  color: #606060;
+  text-align: right;
+  padding-right: 16rpx;
+  position: relative;
+  background-color: #ffeaa7;
+}
+    .gellary-text view {
+      margin-top: 22rpx;
+    }
+    .where {
+      font-weight: 600;
+    }
+    .when {
+      font-family: Microsoft Yi Baiti;
+    }
+    .withWho {
+      text-align: left;
+    }
+    .shortNote {
+      font-family: Batang;
+      color: #000;
+      text-align: center;
+    }
+    
